@@ -108,4 +108,16 @@ magnet:?xt=urn:btih:MD3UK2UG7RX66BJXX3RMESC2TBPEBVMV&dn=IBM+ADCD+Z%2FOS+1.10&tr=
 chmod a+x runHercules.sh
 sudo ./runHercules.sh
 ```
-And then press ESC key
+And then press ESC key 
+![](images/emulator01.png)
+   
+Now open two c3270 consoles
+```
+c3270 [your-linux-ip]:3270
+```
+![](images/c327001.png)
+
+
+Now Press: L and then F    
+![](images/emulator02.png)
+
