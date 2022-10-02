@@ -140,8 +140,11 @@ In the second console, login to the z/os
 ```
 logon ibmuser
 ```
-and then enter the password: sys1    
-Finally you will see a console like this:
+and then enter the password: sys1  
 ![](images/c327006.png)
+the press ENTER    
+Finally you will see a console like this:
+![](images/c327007.png)
+Now your Mainframe is ready to use!!!
 
 
