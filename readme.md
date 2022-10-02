@@ -120,4 +120,28 @@ c3270 [your-linux-ip]:3270
 
 Now Press: L and then F    
 ![](images/emulator02.png)
+   
+Wait until z/os starts, you will see the results in the first c3270 console like this.   
+![](images/c327002.png)
+     
+In the console1, response to the cuestion:
+```
+r 00,r
+```
+![](images/c327003.png)
+response to the second question:
+```
+r 00,couple=**
+```
+![](images/c327004.png)
+It will start the z/os operating system and then you will see the results in the second c3270 console like this:      
+![](images/c327005.png)
+In the second console, login to the z/os
+```
+logon ibmuser
+```
+and then enter the password: sys1    
+Finally you will see a console like this:
+![](images/c327006.png)
+
 
