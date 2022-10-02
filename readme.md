@@ -159,5 +159,12 @@ Finally you will see a console like this:
 ![](images/c327007.png)       
    
 Now your Mainframe is ready to use!!!
-
+   
+### Shutdown The Mainframe
+First, close the two c3270 consoles and then in the hercules console:    
+Press: O and then W and confirm with Y
+   
+![](images/emulator03.png)    
+   
+END.
 
