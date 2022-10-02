@@ -108,7 +108,8 @@ magnet:?xt=urn:btih:MD3UK2UG7RX66BJXX3RMESC2TBPEBVMV&dn=IBM+ADCD+Z%2FOS+1.10&tr=
 chmod a+x runHercules.sh
 sudo ./runHercules.sh
 ```
-And then press ESC key 
+And then press ESC key  
+   
 ![](images/emulator01.png)
    
 Now open two c3270 consoles
@@ -118,33 +119,45 @@ c3270 [your-linux-ip]:3270
 ![](images/c327001.png)
 
 
-Now Press: L and then F    
+Now Press: L and then F  
+   
 ![](images/emulator02.png)
    
 Wait until z/os starts, you will see the results in the first c3270 console like this.   
-![](images/c327002.png)
+   
+![](images/c327002.png)   
      
-In the console1, response to the cuestion:
+In the console1, response to the question:
 ```
 r 00,r
 ```
-![](images/c327003.png)
+![](images/c327003.png)  
+   
 response to the second question:
 ```
 r 00,couple=**
 ```
-![](images/c327004.png)
-It will start the z/os operating system and then you will see the results in the second c3270 console like this:      
-![](images/c327005.png)
+![](images/c327004.png) 
+   
+It will start the z/os operating system and then you will see the results in the second c3270 console like this:  
+   
+![](images/c327005.png)   
+   
 In the second console, login to the z/os
+   
 ```
 logon ibmuser
 ```
 and then enter the password: sys1  
-![](images/c327006.png)
-the press ENTER    
-Finally you will see a console like this:
-![](images/c327007.png)
+   
+![](images/c327006.png)  
+   
+the press ENTER      
+   
+Finally you will see a console like this:   
+   
+![](images/c327007.png)       
+   
 Now your Mainframe is ready to use!!!
 
 
